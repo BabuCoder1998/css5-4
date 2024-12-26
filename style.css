@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    background: #F1EBFF;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+li {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.colored {
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.main-container-content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+
+.top-container {
+    display: flex;
+    width: 1520px;
+    justify-content: space-between;
+}
+
+.top-container-buttons {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #F1EBFF;
+}
+
+.top-container-buttons-para {
+    color: #323232;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.middle-container {
+    display: flex;
+    width: 1520px;
+    gap: 48px;
+}
+
+.middle-container-content {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 32px;
+    line-height: 70px;
+}
+
+.bottom-container {
+    width: 1520px;
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #CCD3E0;
+    height: 48px;
+    align-items: flex-start;
+}
+
+.bottom-container-para {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bottom-top-container {
+    width: 1520px;
+    display: flex;
+    height: 266px;
+    border-top: 2px solid #8CE900;
+    border-right: 2px solid #155EEF;
+    border-bottom: 2px solid #DD2590;
+    border-left: 2px solid #000;
+}
+
+.bottom-top-container-content {
+    width: 760px;
+    display: flex;
+    text-align: left;
+}
+
+h3 {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 18px 16px 0 25px;
+}
+
+h4 {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    width: 720px;
+    text-align: center;
+}
+
+.bottom-top-container-para {
+    color: #969696;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 18px 23px 88px 0;
+    text-align: left;
+}
+
+.bottom-middle-container {
+    width: 1520px;
+    display: flex;
+    height: 272px;
+    padding: 16px 24px;
+    gap: 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+    justify-content: space-between;
+}
+
+.bottom-middle-container-content {
+    width: 720px;
+}
+
+.bottom-middle-container-para {
+    color: #3B3B3B;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.double-bottom-container {
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+    width: 1520px;
+    height: 272px;
+    padding: 16px 24px;
+    gap: 16px;
+    align-items: flex-end;
+    display: flex;
+}
+
+h5 {
+    color: #07081A;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 720px;
+}
+
+.double-bottom-container-para {
+    width: 720px;
+    color: #155EEF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.gapper {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.footer-container {
+    display: flex;
+    padding: 40px 200px 0 0;
+    border-top: 1px solid #F1EBFF;
+    justify-content: flex-end;
+}
+
+.social-media {
+    display: flex;
+    gap: var(--spacing-3xl, 24px);
+}
